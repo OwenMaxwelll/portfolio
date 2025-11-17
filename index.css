@@ -533,8 +533,9 @@ body:not(.user-is-tabbing) a:focus {
     }
     
     .about__photo-container {
-        flex: 1;
-        max-width: 60%;
+        transform: scale(0.8); /* 80% size */
+        flex: 1; 
+        margin: 0 var(--gutter-huge) 0 0;
     }
 }
 
