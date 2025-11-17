@@ -533,7 +533,7 @@ body:not(.user-is-tabbing) a:focus {
     }
     
     .about__photo-container {
-        transform: scale(0.65); /* 80% size */
+        transform: scale(0.35); /* 80% size */
         flex: 1; 
         margin: 0 var(--gutter-huge) 0 0;
     }
